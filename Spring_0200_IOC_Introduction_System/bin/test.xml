@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<books>
+   <book email="abc@163.com">
+     <name>edit-jdom</name>
+     <price>60.0</price>
+  </book>
+</books>

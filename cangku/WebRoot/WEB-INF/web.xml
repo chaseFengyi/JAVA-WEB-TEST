@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<servlet-class>servlet.login</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>login</servlet-name>
+		<url-pattern>/servlet/login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AddUsersController</servlet-name>
+		<servlet-class>com.controller.AddUsersController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddUsersController</servlet-name>
+		<url-pattern>/servlet/AddUsersController</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UserManagerController</servlet-name>
+		<servlet-class>com.controller.UserManagerController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserManagerController</servlet-name>
+		<url-pattern>/servlet/UserManagerController</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserDetailsController</servlet-name>
+		<servlet-class>com.controller.UserDetailsController</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserDetailsController</servlet-name>
+		<url-pattern>/servlet/UserDetailsController</url-pattern>
+	</servlet-mapping>
+	
+  <servlet>
+    <servlet-name>UpdateUserController</servlet-name>
+    <servlet-class>com.controller.UpdateUserController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteUserController</servlet-name>
+    <servlet-class>com.controller.DeleteUserController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>UpdateUserController</servlet-name>
+    <url-pattern>/servlet/UpdateUserController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteUserController</servlet-name>
+    <url-pattern>/servlet/DeleteUserController</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>ResourceManagerController</servlet-name>
+  	<servlet-class>com.controller.ResourceManagerController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateResourceController</servlet-name>
+    <servlet-class>com.controller.UpdateResourceController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResourceDetailsController</servlet-name>
+    <servlet-class>com.controller.ResourceDetailsController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddResourceController</servlet-name>
+    <servlet-class>com.controller.AddResourceController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateResourceUIController</servlet-name>
+    <servlet-class>com.controller.UpdateResourceUIController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateUserUIController</servlet-name>
+    <servlet-class>com.controller.UpdateUserUIController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteResourcerController</servlet-name>
+    <servlet-class>com.controller.DeleteResourcerController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DepartmentManagerController</servlet-name>
+    <servlet-class>com.controller.DepartmentManagerController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateDeptController</servlet-name>
+    <servlet-class>com.controller.UpdateDeptController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UpdateDeptUIController</servlet-name>
+    <servlet-class>com.controller.UpdateDeptUIController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeleteDeptController</servlet-name>
+    <servlet-class>com.controller.DeleteDeptController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddDeptController</servlet-name>
+    <servlet-class>com.controller.AddDeptController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryDeptController</servlet-name>
+    <servlet-class>com.controller.QueryDeptController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryUserController</servlet-name>
+    <servlet-class>com.controller.QueryUserController</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QueryResourceController</servlet-name>
+    <servlet-class>com.controller.QueryResourceController</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  	<servlet-name>ResourceManagerController</servlet-name>
+  	<url-pattern>/servlet/ResourceManagerController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateResourceController</servlet-name>
+    <url-pattern>/servlet/UpdateResourceController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResourceDetailsController</servlet-name>
+    <url-pattern>/servlet/ResourceDetailsController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddResourceController</servlet-name>
+    <url-pattern>/servlet/AddResourceController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateResourceUIController</servlet-name>
+    <url-pattern>/servlet/UpdateResourceUIController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateUserUIController</servlet-name>
+    <url-pattern>/servlet/UpdateUserUIController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteResourcerController</servlet-name>
+    <url-pattern>/servlet/DeleteResourcerController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DepartmentManagerController</servlet-name>
+    <url-pattern>/servlet/DepartmentManagerController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateDeptController</servlet-name>
+    <url-pattern>/servlet/UpdateDeptController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateDeptUIController</servlet-name>
+    <url-pattern>/servlet/UpdateDeptUIController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteDeptController</servlet-name>
+    <url-pattern>/servlet/DeleteDeptController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddDeptController</servlet-name>
+    <url-pattern>/servlet/AddDeptController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryDeptController</servlet-name>
+    <url-pattern>/servlet/QueryDeptController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryUserController</servlet-name>
+    <url-pattern>/servlet/QueryUserController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QueryResourceController</servlet-name>
+    <url-pattern>/servlet/QueryResourceController</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

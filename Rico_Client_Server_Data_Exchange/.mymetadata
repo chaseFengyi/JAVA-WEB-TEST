@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Rico_Client_Server_Data_Exchange"
+  id="myeclipse.1427627249490"
+  context-root="/Rico_Client_Server_Data_Exchange"
+  j2ee-spec="5.0"
+  archive="Rico_Client_Server_Data_Exchange.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

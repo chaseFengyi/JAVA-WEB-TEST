@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" 
+	xmlns="http://java.sun.com/xml/ns/j2ee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+  <servlet>
+    <servlet-name>exp6_1</servlet-name>
+    <servlet-class>exp6_1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>exp6_2</servlet-name>
+    <servlet-class>exp6_2</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>exp6_1</servlet-name>
+    <url-pattern>/servlet/exp6_1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>exp6_2</servlet-name>
+    <url-pattern>/servlet/exp6_2</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>exp6-1.html</welcome-file>
+  </welcome-file-list>
+</web-app>

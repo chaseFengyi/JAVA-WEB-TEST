@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="MUJI"
+  id="myeclipse.1422096924228"
+  context-root="/MUJI"
+  j2ee-spec="5.0"
+  archive="MUJI.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
